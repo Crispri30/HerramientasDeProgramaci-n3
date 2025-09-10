@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Pantallas_Sistema_Facturación.RepositoriosCRUD;
+using System.Data.SqlClient;
+using System.Xml.Linq;
 
 namespace Pantallas_Sistema_Facturación
 {
@@ -36,6 +39,19 @@ namespace Pantallas_Sistema_Facturación
                 {
                     // Lógica para eliminar el cliente
                     MessageBox.Show("Cliente eliminado exitosamente.", "Eliminación exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    try
+                    {
+                        int documento = Convert.ToInt32(dgClientes.Rows[dgClientes.CurrentRow.Index].Cells["txtID"].Value);
+
+                        var repo = new ClientesRepository();
+                        repo.EliminarCliente(documento);
+
+
+                    }
+                    catch (Exception ex)
+                    {
+                        materialLabel1.Text = "Error al eliminar el cliente: " + ex.Message;
+                    }
                 }
             }
         }

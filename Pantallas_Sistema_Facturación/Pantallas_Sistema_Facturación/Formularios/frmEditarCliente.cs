@@ -33,10 +33,6 @@ namespace Pantallas_Sistema_Facturación
                 //Editar cliente existente
                 lblEditarCliente.Text = "Editar Cliente";
                 // Cargar los datos del cliente desde la base de datos
-                // var cliente = ObtenerClientePorId(IdCliente);
-                // txtNombre.Text = cliente.Nombre;
-                // txtDireccion.Text = cliente.Direccion;
-                // txtTelefono.Text = cliente.Telefono;
             }
         }
         private void btnEditarSalir_Click(object sender, EventArgs e)
@@ -46,6 +42,28 @@ namespace Pantallas_Sistema_Facturación
 
         private void btnActualizarCliente_Click(object sender, EventArgs e)
         {
+            try
+            {
+                int documento = int.Parse(txtEditarDocumento.Text);
+                string nombre = txtEditarNombre.Text;
+                string correo = txtEditarCorreo.Text;
+                string direccion = txtEditarDireccion.Text;
+                int telefono = int.Parse(txtEditarTelefono.Text);
+
+                var repo = new RepositoriosCRUD.ClientesRepository();
+                repo.EditarCliente(documento, nombre, correo, direccion, telefono);
+
+                txtEditarDocumento.Clear();
+                txtEditarNombre.Clear();
+                txtEditarCorreo.Clear();
+                txtEditarDireccion.Clear();
+                txtEditarTelefono.Clear();
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al actualizar el cliente: " + ex.Message);
+            }
             errorProvider1.Clear();
             bool hayError = false;
             if (string.IsNullOrWhiteSpace(txtEditarNombre.Text))
@@ -84,6 +102,28 @@ namespace Pantallas_Sistema_Facturación
 
         private void btnAgregarNuevo_Click(object sender, EventArgs e)
         {
+            try
+            {
+                int documento = int.Parse(txtEditarDocumento.Text);
+                string nombre = txtEditarNombre.Text;
+                string correo = txtEditarCorreo.Text;
+                string direccion = txtEditarDireccion.Text;
+                int telefono = int.Parse(txtEditarTelefono.Text);
+
+                var repo = new RepositoriosCRUD.ClientesRepository();
+                repo.AgregarCliente(documento, nombre, correo, direccion, telefono);
+
+                txtEditarDocumento.Clear();
+                txtEditarNombre.Clear();
+                txtEditarCorreo.Clear();
+                txtEditarDireccion.Clear();
+                txtEditarTelefono.Clear();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al agregar el cliente: " + ex.Message);
+            }
+
             errorProvider1.Clear();
             bool hayError = false;
             if (string.IsNullOrWhiteSpace(txtEditarNombre.Text))

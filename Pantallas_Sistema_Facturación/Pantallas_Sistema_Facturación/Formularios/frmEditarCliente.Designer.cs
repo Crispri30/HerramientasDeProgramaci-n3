@@ -63,7 +63,7 @@
             // 
             this.txtEditarCorreo.Depth = 0;
             this.txtEditarCorreo.Hint = "Correo";
-            this.txtEditarCorreo.Location = new System.Drawing.Point(109, 198);
+            this.txtEditarCorreo.Location = new System.Drawing.Point(109, 112);
             this.txtEditarCorreo.MaxLength = 32767;
             this.txtEditarCorreo.MouseState = MaterialSkin.MouseState.HOVER;
             this.txtEditarCorreo.Name = "txtEditarCorreo";
@@ -97,7 +97,7 @@
             // 
             this.txtEditarTelefono.Depth = 0;
             this.txtEditarTelefono.Hint = "Telefono";
-            this.txtEditarTelefono.Location = new System.Drawing.Point(109, 108);
+            this.txtEditarTelefono.Location = new System.Drawing.Point(109, 201);
             this.txtEditarTelefono.MaxLength = 32767;
             this.txtEditarTelefono.MouseState = MaterialSkin.MouseState.HOVER;
             this.txtEditarTelefono.Name = "txtEditarTelefono";
@@ -114,7 +114,7 @@
             // 
             this.txtEditarDocumento.Depth = 0;
             this.txtEditarDocumento.Hint = "Documento";
-            this.txtEditarDocumento.Location = new System.Drawing.Point(109, 65);
+            this.txtEditarDocumento.Location = new System.Drawing.Point(109, 20);
             this.txtEditarDocumento.MaxLength = 32767;
             this.txtEditarDocumento.MouseState = MaterialSkin.MouseState.HOVER;
             this.txtEditarDocumento.Name = "txtEditarDocumento";
@@ -131,7 +131,7 @@
             // 
             this.txtEditarNombre.Depth = 0;
             this.txtEditarNombre.Hint = "Nombre cliente";
-            this.txtEditarNombre.Location = new System.Drawing.Point(109, 22);
+            this.txtEditarNombre.Location = new System.Drawing.Point(109, 64);
             this.txtEditarNombre.MaxLength = 32767;
             this.txtEditarNombre.MouseState = MaterialSkin.MouseState.HOVER;
             this.txtEditarNombre.Name = "txtEditarNombre";

@@ -1,0 +1,16 @@
+CREATE DATABASE Actividad2;
+USE Actividad2;
+
+CREATE TABLE Clientes(
+	DocumentoCliente INT PRIMARY KEY,
+	NombreCliente NVARCHAR (200) NOT NULL,
+	Email NVARCHAR (200) NOT NULL,
+	Direccion NVARCHAR (200) NOT NULL,
+	Telefono INT NOT NULL
+);
+
+CREATE TABLE Usuarios(
+	Documento INT NOT NULL,
+	Usuario NVARCHAR(200) NOT NULL,
+	Clave NVARCHAR(200) NOT NULL
+);
