@@ -134,6 +134,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RepositoriosCRUD\ClientesRepository.cs" />
+    <Compile Include="RepositoriosCRUD\UsuariosRepository.cs" />
     <Compile Include="Utilidades\ConexionBD.cs" />
     <EmbeddedResource Include="Formularios\frmAcercade.resx">
       <DependentUpon>frmAcercade.cs</DependentUpon>

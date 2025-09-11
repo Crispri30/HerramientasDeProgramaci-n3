@@ -58,46 +58,13 @@ namespace Pantallas_Sistema_Facturación
                 txtEditarCorreo.Clear();
                 txtEditarDireccion.Clear();
                 txtEditarTelefono.Clear();
+                MessageBox.Show("Cliente actualizado exitosamente.", "Actualización exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
 
             catch (Exception ex)
             {
                 MessageBox.Show("Error al actualizar el cliente: " + ex.Message);
             }
-            errorProvider1.Clear();
-            bool hayError = false;
-            if (string.IsNullOrWhiteSpace(txtEditarNombre.Text))
-            {
-                errorProvider1.SetError(txtEditarNombre, "El nombre es obligatorio.");
-                hayError = true;
-            }
-            if (string.IsNullOrWhiteSpace(txtEditarDocumento.Text))
-            {
-                errorProvider1.SetError(txtEditarDocumento, "El documento es obligatoria.");
-                hayError = true;
-            }
-            if (string.IsNullOrWhiteSpace(txtEditarTelefono.Text))
-            {
-                errorProvider1.SetError(txtEditarTelefono, "El telefono es obligatoria.");
-                hayError = true;
-            }
-            if (string.IsNullOrWhiteSpace(txtEditarDireccion.Text))
-            {
-                errorProvider1.SetError(txtEditarDireccion, "La dirección es obligatoria.");
-                hayError = true;
-            }
-            if (string.IsNullOrWhiteSpace(txtEditarCorreo.Text))
-            {
-                errorProvider1.SetError(txtEditarCorreo, "El correo es obligatorio.");
-                hayError = true;
-            }
-
-            if (hayError)
-            {
-                MessageBox.Show("Por favor completa todos los campos requeridos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-            MessageBox.Show("Cliente actualizado exitosamente.", "Actualización exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void btnAgregarNuevo_Click(object sender, EventArgs e)
@@ -118,48 +85,12 @@ namespace Pantallas_Sistema_Facturación
                 txtEditarCorreo.Clear();
                 txtEditarDireccion.Clear();
                 txtEditarTelefono.Clear();
+                MessageBox.Show("Cliente agregado exitosamente.", "Agregado exitosamente", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Error al agregar el cliente: " + ex.Message);
             }
-
-            errorProvider1.Clear();
-            bool hayError = false;
-            if (string.IsNullOrWhiteSpace(txtEditarNombre.Text))
-            {
-                errorProvider1.SetError(txtEditarNombre, "El nombre es obligatorio.");
-                hayError = true;
-            }
-            if (string.IsNullOrWhiteSpace(txtEditarDocumento.Text))
-            {
-                errorProvider1.SetError(txtEditarDocumento, "El documento es obligatoria.");
-                hayError = true;
-            }
-            if (string.IsNullOrWhiteSpace(txtEditarTelefono.Text))
-            {
-                errorProvider1.SetError(txtEditarTelefono, "El telefono es obligatoria.");
-                hayError = true;
-            }
-            if (string.IsNullOrWhiteSpace(txtEditarDireccion.Text))
-            {
-                errorProvider1.SetError(txtEditarDireccion, "La dirección es obligatoria.");
-                hayError = true;
-            }
-            if (string.IsNullOrWhiteSpace(txtEditarCorreo.Text))
-            {
-                errorProvider1.SetError(txtEditarCorreo, "El correo es obligatorio.");
-                hayError = true;
-            }
-
-            //Validacion de los formatos
-            if (hayError)
-            {
-                MessageBox.Show("Por favor completa todos los campos requeridos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-
-            MessageBox.Show("Cliente agregado exitosamente.", "Agregado exitosamente", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

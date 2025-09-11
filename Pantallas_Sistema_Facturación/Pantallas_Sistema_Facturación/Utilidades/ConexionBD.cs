@@ -10,7 +10,7 @@ namespace Pantallas_Sistema_Facturación.Utilidades
 {
     public class ConexionBD
     {
-        private readonly string cadenaConexion= "Server=localhost\\SQLEXPRESS;Database=ControlEdificios;Trusted_Connection=True;TrustServerCertificate=True";
+        private readonly string cadenaConexion= "Server=localhost\\SQLEXPRESS;Database=Actividad2;Trusted_Connection=True;TrustServerCertificate=True";
 
         private static ConexionBD instancia; //Variable con la unica instancia de la clase
 

@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasDeProgramaci-n3\\Pantallas_Sistema_Facturaci\u00F3n\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8B70DD57-6994-4173-9C85-4EA6406232CA}|Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n.csproj|c:\\users\\user\\onedrive\\escritorio\\herramientasdeprogramaci-n3\\pantallas_sistema_facturaci\u00F3n\\pantallas_sistema_facturaci\u00F3n\\formularios\\frmadminseguridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B70DD57-6994-4173-9C85-4EA6406232CA}|Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n.csproj|solutionrelative:pantallas_sistema_facturaci\u00F3n\\formularios\\frmadminseguridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B70DD57-6994-4173-9C85-4EA6406232CA}|Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n.csproj|c:\\users\\user\\onedrive\\escritorio\\herramientasdeprogramaci-n3\\pantallas_sistema_facturaci\u00F3n\\pantallas_sistema_facturaci\u00F3n\\repositorioscrud\\usuariosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B70DD57-6994-4173-9C85-4EA6406232CA}|Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n.csproj|solutionrelative:pantallas_sistema_facturaci\u00F3n\\repositorioscrud\\usuariosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B70DD57-6994-4173-9C85-4EA6406232CA}|Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n.csproj|c:\\users\\user\\onedrive\\escritorio\\herramientasdeprogramaci-n3\\pantallas_sistema_facturaci\u00F3n\\pantallas_sistema_facturaci\u00F3n\\formularios\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B70DD57-6994-4173-9C85-4EA6406232CA}|Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n.csproj|solutionrelative:pantallas_sistema_facturaci\u00F3n\\formularios\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B70DD57-6994-4173-9C85-4EA6406232CA}|Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n.csproj|c:\\users\\user\\onedrive\\escritorio\\herramientasdeprogramaci-n3\\pantallas_sistema_facturaci\u00F3n\\pantallas_sistema_facturaci\u00F3n\\formularios\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B70DD57-6994-4173-9C85-4EA6406232CA}|Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n.csproj|solutionrelative:pantallas_sistema_facturaci\u00F3n\\formularios\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B70DD57-6994-4173-9C85-4EA6406232CA}|Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n.csproj|c:\\users\\user\\onedrive\\escritorio\\herramientasdeprogramaci-n3\\pantallas_sistema_facturaci\u00F3n\\pantallas_sistema_facturaci\u00F3n\\formularios\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B70DD57-6994-4173-9C85-4EA6406232CA}|Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n.csproj|solutionrelative:pantallas_sistema_facturaci\u00F3n\\formularios\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B70DD57-6994-4173-9C85-4EA6406232CA}|Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n.csproj|c:\\users\\user\\onedrive\\escritorio\\herramientasdeprogramaci-n3\\pantallas_sistema_facturaci\u00F3n\\pantallas_sistema_facturaci\u00F3n\\formularios\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B70DD57-6994-4173-9C85-4EA6406232CA}|Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n.csproj|solutionrelative:pantallas_sistema_facturaci\u00F3n\\formularios\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B70DD57-6994-4173-9C85-4EA6406232CA}|Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n.csproj|c:\\users\\user\\onedrive\\escritorio\\herramientasdeprogramaci-n3\\pantallas_sistema_facturaci\u00F3n\\pantallas_sistema_facturaci\u00F3n\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B70DD57-6994-4173-9C85-4EA6406232CA}|Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n.csproj|solutionrelative:pantallas_sistema_facturaci\u00F3n\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8B70DD57-6994-4173-9C85-4EA6406232CA}|Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n.csproj|c:\\users\\user\\onedrive\\escritorio\\herramientasdeprogramaci-n3\\pantallas_sistema_facturaci\u00F3n\\pantallas_sistema_facturaci\u00F3n\\repositorioscrud\\clientesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B70DD57-6994-4173-9C85-4EA6406232CA}|Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n.csproj|solutionrelative:pantallas_sistema_facturaci\u00F3n\\repositorioscrud\\clientesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B70DD57-6994-4173-9C85-4EA6406232CA}|Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n.csproj|c:\\users\\user\\onedrive\\escritorio\\herramientasdeprogramaci-n3\\pantallas_sistema_facturaci\u00F3n\\pantallas_sistema_facturaci\u00F3n\\formularios\\frmeditarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8B70DD57-6994-4173-9C85-4EA6406232CA}|Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n.csproj|solutionrelative:pantallas_sistema_facturaci\u00F3n\\formularios\\frmeditarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B70DD57-6994-4173-9C85-4EA6406232CA}|Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n.csproj|c:\\users\\user\\onedrive\\escritorio\\herramientasdeprogramaci-n3\\pantallas_sistema_facturaci\u00F3n\\pantallas_sistema_facturaci\u00F3n\\formularios\\frmeditarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B70DD57-6994-4173-9C85-4EA6406232CA}|Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n.csproj|solutionrelative:pantallas_sistema_facturaci\u00F3n\\formularios\\frmeditarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B70DD57-6994-4173-9C85-4EA6406232CA}|Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n.csproj|c:\\users\\user\\onedrive\\escritorio\\herramientasdeprogramaci-n3\\pantallas_sistema_facturaci\u00F3n\\pantallas_sistema_facturaci\u00F3n\\formularios\\frmlistaclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B70DD57-6994-4173-9C85-4EA6406232CA}|Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n.csproj|solutionrelative:pantallas_sistema_facturaci\u00F3n\\formularios\\frmlistaclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B70DD57-6994-4173-9C85-4EA6406232CA}|Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n.csproj|c:\\users\\user\\onedrive\\escritorio\\herramientasdeprogramaci-n3\\pantallas_sistema_facturaci\u00F3n\\pantallas_sistema_facturaci\u00F3n\\formularios\\frmlistaclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8B70DD57-6994-4173-9C85-4EA6406232CA}|Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n.csproj|solutionrelative:pantallas_sistema_facturaci\u00F3n\\formularios\\frmlistaclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8B70DD57-6994-4173-9C85-4EA6406232CA}|Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n.csproj|c:\\users\\user\\onedrive\\escritorio\\herramientasdeprogramaci-n3\\pantallas_sistema_facturaci\u00F3n\\pantallas_sistema_facturaci\u00F3n\\formularios\\frmadminseguridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B70DD57-6994-4173-9C85-4EA6406232CA}|Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n.csproj|solutionrelative:pantallas_sistema_facturaci\u00F3n\\formularios\\frmadminseguridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,70 +46,121 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmEditarCliente.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasDeProgramaci-n3\\Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmEditarCliente.cs",
-              "RelativeDocumentMoniker": "Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmEditarCliente.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasDeProgramaci-n3\\Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmEditarCliente.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmEditarCliente.cs [Dise\u00F1o]",
+              "DocumentIndex": 4,
+              "Title": "frmPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasDeProgramaci-n3\\Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmPrincipal.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasDeProgramaci-n3\\Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmPrincipal.cs",
+              "RelativeToolTip": "Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmPrincipal.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T01:34:07.932Z",
+              "WhenOpened": "2025-09-11T03:31:41.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasDeProgramaci-n3\\Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmPrincipal.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasDeProgramaci-n3\\Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T03:31:36.042Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasDeProgramaci-n3\\Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\Login.cs",
+              "RelativeDocumentMoniker": "Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\Login.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasDeProgramaci-n3\\Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\Login.cs",
+              "RelativeToolTip": "Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\Login.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wCUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T03:30:53.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasDeProgramaci-n3\\Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n\\Program.cs",
+              "RelativeDocumentMoniker": "Pantallas_Sistema_Facturaci\u00F3n\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasDeProgramaci-n3\\Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n\\Program.cs",
+              "RelativeToolTip": "Pantallas_Sistema_Facturaci\u00F3n\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T03:29:46.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "frmAdminSeguridad.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasDeProgramaci-n3\\Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmAdminSeguridad.cs",
+              "RelativeDocumentMoniker": "Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmAdminSeguridad.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasDeProgramaci-n3\\Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmAdminSeguridad.cs",
+              "RelativeToolTip": "Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmAdminSeguridad.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAEwDoAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T03:11:38.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuariosRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasDeProgramaci-n3\\Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n\\RepositoriosCRUD\\UsuariosRepository.cs",
+              "RelativeDocumentMoniker": "Pantallas_Sistema_Facturaci\u00F3n\\RepositoriosCRUD\\UsuariosRepository.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasDeProgramaci-n3\\Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n\\RepositoriosCRUD\\UsuariosRepository.cs",
+              "RelativeToolTip": "Pantallas_Sistema_Facturaci\u00F3n\\RepositoriosCRUD\\UsuariosRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T01:22:49.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ClientesRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasDeProgramaci-n3\\Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n\\RepositoriosCRUD\\ClientesRepository.cs",
               "RelativeDocumentMoniker": "Pantallas_Sistema_Facturaci\u00F3n\\RepositoriosCRUD\\ClientesRepository.cs",
               "ToolTip": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasDeProgramaci-n3\\Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n\\RepositoriosCRUD\\ClientesRepository.cs",
               "RelativeToolTip": "Pantallas_Sistema_Facturaci\u00F3n\\RepositoriosCRUD\\ClientesRepository.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-10T02:02:15.062Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmListaClientes.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasDeProgramaci-n3\\Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmListaClientes.cs",
-              "RelativeDocumentMoniker": "Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmListaClientes.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasDeProgramaci-n3\\Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmListaClientes.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmListaClientes.cs [Dise\u00F1o]",
+              "DocumentIndex": 5,
+              "Title": "Login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasDeProgramaci-n3\\Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\Login.cs",
+              "RelativeDocumentMoniker": "Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\Login.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasDeProgramaci-n3\\Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\Login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\Login.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T01:32:50.232Z",
+              "WhenOpened": "2025-09-11T01:16:44.357Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmEditarCliente.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasDeProgramaci-n3\\Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmEditarCliente.cs",
-              "RelativeDocumentMoniker": "Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmEditarCliente.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasDeProgramaci-n3\\Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmEditarCliente.cs",
-              "RelativeToolTip": "Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmEditarCliente.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAIwD0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "frmAdminSeguridad.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasDeProgramaci-n3\\Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmAdminSeguridad.cs",
+              "RelativeDocumentMoniker": "Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmAdminSeguridad.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasDeProgramaci-n3\\Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmAdminSeguridad.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmAdminSeguridad.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T02:36:54.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmListaClientes.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasDeProgramaci-n3\\Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmListaClientes.cs",
-              "RelativeDocumentMoniker": "Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmListaClientes.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Escritorio\\HerramientasDeProgramaci-n3\\Pantallas_Sistema_Facturaci\u00F3n\\Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmListaClientes.cs",
-              "RelativeToolTip": "Pantallas_Sistema_Facturaci\u00F3n\\Formularios\\frmListaClientes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T01:33:07.795Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T02:57:37.2Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

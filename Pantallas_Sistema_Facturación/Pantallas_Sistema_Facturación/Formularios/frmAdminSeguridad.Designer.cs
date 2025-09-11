@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
-            this.cmbEmpleado = new System.Windows.Forms.ComboBox();
+            this.cmbUsuario = new System.Windows.Forms.ComboBox();
             this.txtUsuario = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.txtClave = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.btnActualizar = new MaterialSkin.Controls.MaterialRaisedButton();
@@ -62,17 +62,17 @@
             this.materialLabel2.Location = new System.Drawing.Point(12, 160);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(76, 19);
+            this.materialLabel2.Size = new System.Drawing.Size(61, 19);
             this.materialLabel2.TabIndex = 1;
-            this.materialLabel2.Text = "Empleado";
+            this.materialLabel2.Text = "Usuario";
             // 
-            // cmbEmpleado
+            // cmbUsuario
             // 
-            this.cmbEmpleado.FormattingEnabled = true;
-            this.cmbEmpleado.Location = new System.Drawing.Point(157, 161);
-            this.cmbEmpleado.Name = "cmbEmpleado";
-            this.cmbEmpleado.Size = new System.Drawing.Size(402, 21);
-            this.cmbEmpleado.TabIndex = 2;
+            this.cmbUsuario.FormattingEnabled = true;
+            this.cmbUsuario.Location = new System.Drawing.Point(157, 161);
+            this.cmbUsuario.Name = "cmbUsuario";
+            this.cmbUsuario.Size = new System.Drawing.Size(402, 21);
+            this.cmbUsuario.TabIndex = 2;
             // 
             // txtUsuario
             // 
@@ -110,6 +110,7 @@
             // 
             // btnActualizar
             // 
+            this.btnActualizar.AutoSize = true;
             this.btnActualizar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnActualizar.Depth = 0;
             this.btnActualizar.Icon = null;
@@ -117,7 +118,7 @@
             this.btnActualizar.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Primary = true;
-            this.btnActualizar.Size = new System.Drawing.Size(125, 36);
+            this.btnActualizar.Size = new System.Drawing.Size(103, 36);
             this.btnActualizar.TabIndex = 5;
             this.btnActualizar.Text = "Actualizar";
             this.btnActualizar.UseVisualStyleBackColor = true;
@@ -125,6 +126,7 @@
             // 
             // btnSalir
             // 
+            this.btnSalir.AutoSize = true;
             this.btnSalir.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnSalir.Depth = 0;
             this.btnSalir.Icon = null;
@@ -132,7 +134,7 @@
             this.btnSalir.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Primary = true;
-            this.btnSalir.Size = new System.Drawing.Size(125, 36);
+            this.btnSalir.Size = new System.Drawing.Size(58, 36);
             this.btnSalir.TabIndex = 6;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
@@ -151,11 +153,12 @@
             this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.txtClave);
             this.Controls.Add(this.txtUsuario);
-            this.Controls.Add(this.cmbEmpleado);
+            this.Controls.Add(this.cmbUsuario);
             this.Controls.Add(this.materialLabel2);
             this.Controls.Add(this.materialLabel1);
             this.Name = "frmAdminSeguridad";
             this.Text = "frmAdminSeguridad";
+            this.Load += new System.EventHandler(this.frmAdminSeguridad_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -166,7 +169,7 @@
 
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
-        private System.Windows.Forms.ComboBox cmbEmpleado;
+        private System.Windows.Forms.ComboBox cmbUsuario;
         private MaterialSkin.Controls.MaterialSingleLineTextField txtUsuario;
         private MaterialSkin.Controls.MaterialSingleLineTextField txtClave;
         private MaterialSkin.Controls.MaterialRaisedButton btnActualizar;

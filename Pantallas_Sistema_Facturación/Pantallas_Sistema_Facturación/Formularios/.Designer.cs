@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.btnValidar = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btnCancelar = new MaterialSkin.Controls.MaterialRaisedButton();
             this.txtUsuario = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.txtContrasena = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -50,22 +50,33 @@
             this.panel1.Size = new System.Drawing.Size(184, 211);
             this.panel1.TabIndex = 0;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Pantallas_Sistema_Facturación.Properties.Resources.login_imagen;
+            this.pictureBox1.Location = new System.Drawing.Point(31, 59);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(115, 104);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // materialLabel1
             // 
             this.materialLabel1.AutoSize = true;
             this.materialLabel1.Depth = 0;
-            this.materialLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel1.Location = new System.Drawing.Point(300, 20);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(139, 18);
+            this.materialLabel1.Size = new System.Drawing.Size(136, 19);
             this.materialLabel1.TabIndex = 1;
             this.materialLabel1.Text = "VALIDAR USUARIO";
             this.materialLabel1.Click += new System.EventHandler(this.materialLabel1_Click);
             // 
             // btnValidar
             // 
+            this.btnValidar.AutoSize = true;
             this.btnValidar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnValidar.Depth = 0;
             this.btnValidar.Icon = null;
@@ -77,9 +88,11 @@
             this.btnValidar.TabIndex = 4;
             this.btnValidar.Text = "Validar";
             this.btnValidar.UseVisualStyleBackColor = true;
+            this.btnValidar.Click += new System.EventHandler(this.btnValidar_Click);
             // 
             // btnCancelar
             // 
+            this.btnCancelar.AutoSize = true;
             this.btnCancelar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnCancelar.Depth = 0;
             this.btnCancelar.Icon = null;
@@ -87,7 +100,7 @@
             this.btnCancelar.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Primary = true;
-            this.btnCancelar.Size = new System.Drawing.Size(77, 36);
+            this.btnCancelar.Size = new System.Drawing.Size(91, 36);
             this.btnCancelar.TabIndex = 5;
             this.btnCancelar.Text = "CANCELAR";
             this.btnCancelar.UseVisualStyleBackColor = true;
@@ -96,7 +109,7 @@
             // txtUsuario
             // 
             this.txtUsuario.Depth = 0;
-            this.txtUsuario.Hint = "";
+            this.txtUsuario.Hint = "Usuario";
             this.txtUsuario.Location = new System.Drawing.Point(234, 71);
             this.txtUsuario.MaxLength = 32767;
             this.txtUsuario.MouseState = MaterialSkin.MouseState.HOVER;
@@ -108,14 +121,13 @@
             this.txtUsuario.Size = new System.Drawing.Size(226, 23);
             this.txtUsuario.TabIndex = 6;
             this.txtUsuario.TabStop = false;
-            this.txtUsuario.Text = "Usuario";
             this.txtUsuario.UseSystemPasswordChar = false;
             this.txtUsuario.Click += new System.EventHandler(this.materialSingleLineTextField1_Click);
             // 
             // txtContrasena
             // 
             this.txtContrasena.Depth = 0;
-            this.txtContrasena.Hint = "";
+            this.txtContrasena.Hint = "Contraseña";
             this.txtContrasena.Location = new System.Drawing.Point(234, 112);
             this.txtContrasena.MaxLength = 32767;
             this.txtContrasena.MouseState = MaterialSkin.MouseState.HOVER;
@@ -127,18 +139,7 @@
             this.txtContrasena.Size = new System.Drawing.Size(226, 23);
             this.txtContrasena.TabIndex = 7;
             this.txtContrasena.TabStop = false;
-            this.txtContrasena.Text = "Contraseña";
             this.txtContrasena.UseSystemPasswordChar = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Pantallas_Sistema_Facturación.Properties.Resources.login_imagen;
-            this.pictureBox1.Location = new System.Drawing.Point(31, 59);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(115, 104);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // frmLogin
             // 

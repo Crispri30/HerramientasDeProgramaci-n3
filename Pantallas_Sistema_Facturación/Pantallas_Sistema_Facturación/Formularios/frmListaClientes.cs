@@ -1,14 +1,15 @@
-﻿using System;
+﻿using Pantallas_Sistema_Facturación.RepositoriosCRUD;
+using Pantallas_Sistema_Facturación.Utilidades;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Pantallas_Sistema_Facturación.RepositoriosCRUD;
-using System.Data.SqlClient;
 using System.Xml.Linq;
 
 namespace Pantallas_Sistema_Facturación
@@ -19,7 +20,12 @@ namespace Pantallas_Sistema_Facturación
         {
             InitializeComponent();
         }
-
+        //Evento Load del formulario
+        private void frmListaClientes_Load(object sender, EventArgs e)
+        {
+            dgClientes.AutoGenerateColumns = false;
+            CargarDataGrid();
+        }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -28,10 +34,10 @@ namespace Pantallas_Sistema_Facturación
                 int posicion = dgClientes.CurrentRow.Index;
                 frmEditarCliente editarCliente = new frmEditarCliente();
                 //Convertir el valor de la celda a entero y asignarlo a la propiedad IdCliente del formulario editarCliente
-                editarCliente.IdCliente = Convert.ToInt32(dgClientes.Rows[posicion].Cells["txtID"].Value);
+                editarCliente.IdCliente = Convert.ToInt32(dgClientes.Rows[posicion].Cells["txtDocumento"].Value);
                 editarCliente.ShowDialog();
             }
-            if (dgClientes.Columns[e.ColumnIndex].Name == "btnEliminarCliente")
+            if (dgClientes.Columns[e.ColumnIndex].Name == "btnBorrarCliente")
             {
                 //Crear un cuadro de diálogo para confirmar la eliminación
                 var resultado = MessageBox.Show("¿Está seguro de que desea eliminar este cliente?", "Confirmar eliminación", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
@@ -41,7 +47,7 @@ namespace Pantallas_Sistema_Facturación
                     MessageBox.Show("Cliente eliminado exitosamente.", "Eliminación exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     try
                     {
-                        int documento = Convert.ToInt32(dgClientes.Rows[dgClientes.CurrentRow.Index].Cells["txtID"].Value);
+                        int documento = Convert.ToInt32(dgClientes.Rows[dgClientes.CurrentRow.Index].Cells["txtDocumento"].Value);
 
                         var repo = new ClientesRepository();
                         repo.EliminarCliente(documento);
@@ -65,16 +71,28 @@ namespace Pantallas_Sistema_Facturación
 
         private void btnBuscarCliente_Click(object sender, EventArgs e)
         {
+            string documento = txtBuscarCliente.Text.Trim(); //Obtener el texto y quitar espacios en blanco
+            var conexion = ConexionBD.ObtenerInstancia().ObtenerConexion();
+            using (SqlDataAdapter datadapter = new SqlDataAdapter("SELECT DocumentoCliente, NombreCliente,Email, Direccion, Telefono FROM Clientes WHERE DocumentoCliente = @documento", conexion))
+            {
+                DataTable dt = new DataTable();
+                datadapter.SelectCommand.Parameters.AddWithValue("@documento", documento); //Agregar el parámetro a la consulta
+                datadapter.Fill(dt);
+                dgClientes.AutoGenerateColumns = false;
+                dgClientes.DataSource = dt;
+                //Asignar las columnas del DataGridView a las propiedades de la tabla
+                dgClientes.Columns["txtDocumento"].DataPropertyName = "DocumentoCliente";
+                dgClientes.Columns["txtNombre"].DataPropertyName = "NombreCliente";
+                dgClientes.Columns["txtTelefono"].DataPropertyName = "Telefono";
+            }
+            ConexionBD.ObtenerInstancia().CerrarConexion();
+
             errorProvider1.Clear();
             bool hayError = false;
             if (string.IsNullOrWhiteSpace(txtBuscarCliente.Text))
             {
                 errorProvider1.SetError(txtBuscarCliente, "El nombre es obligatorio.");
-                hayError = true;
-            }
-           if (dgClientes.Rows.Count == 1)
-            {
-                errorProvider1.SetError(dgClientes, "El data grid view no puede estar vacío.");
+                CargarDataGrid(); //Recargar el data grid view con todos los clientes
                 hayError = true;
             }
 
@@ -83,7 +101,21 @@ namespace Pantallas_Sistema_Facturación
                 MessageBox.Show("Por favor completa todos los campos requeridos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            MessageBox.Show("Cliente actualizado exitosamente.", "Actualización exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+        public void CargarDataGrid() 
+        { 
+            var conexion = ConexionBD.ObtenerInstancia().ObtenerConexion();
+            using (SqlDataAdapter datadapter = new SqlDataAdapter("SELECT DocumentoCliente, NombreCliente,Email, Direccion, Telefono FROM Clientes", conexion))
+            {
+                DataTable dt = new DataTable(); //Crear tabla de datos para almacenar los datos
+                datadapter.Fill(dt); //Llenar la tabla con los datos obtenidos de la consulta
+                dgClientes.DataSource = dt; //Asignar la tabla como origen de datos del data grid view
+                //Asignar las columnas del DataGridView a las propiedades de la tabla
+                dgClientes.Columns["txtDocumento"].DataPropertyName = "DocumentoCliente";
+                dgClientes.Columns["txtNombre"].DataPropertyName = "NombreCliente";
+                dgClientes.Columns["txtTelefono"].DataPropertyName = "Email";
+            }
+            ConexionBD.ObtenerInstancia().CerrarConexion();
         }
 
         private void btnSalir_Click(object sender, EventArgs e)

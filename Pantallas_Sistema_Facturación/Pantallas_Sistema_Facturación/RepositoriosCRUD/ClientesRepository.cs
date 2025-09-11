@@ -19,6 +19,7 @@ namespace Pantallas_Sistema_Facturación.RepositoriosCRUD
             var conexion = ConexionBD.ObtenerInstancia().ObtenerConexion();
             using (SqlCommand verificar = new SqlCommand ("SELECT COUNT (*) FROM Clientes WHERE DocumentoCliente = @documento", conexion))
             {
+                verificar.Parameters.AddWithValue("@documento", documento);
                 int cantidad = (int)verificar.ExecuteScalar(); 
                 if (cantidad > 0)
                 {
@@ -52,6 +53,7 @@ namespace Pantallas_Sistema_Facturación.RepositoriosCRUD
                 act.Parameters.AddWithValue("@telefono", telefono);
                 act.ExecuteNonQuery();
             }
+            ConexionBD.ObtenerInstancia().CerrarConexion();
         }
 
        //Obtener Cliente
@@ -65,6 +67,7 @@ namespace Pantallas_Sistema_Facturación.RepositoriosCRUD
                 eliminar.Parameters.AddWithValue("@documento", documento);
                 eliminar.ExecuteNonQuery();
             }
+            ConexionBD.ObtenerInstancia().CerrarConexion();
         }
     }
 }

@@ -35,13 +35,12 @@
             this.btnNuevoCliente = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btnSalir = new MaterialSkin.Controls.MaterialRaisedButton();
             this.dgClientes = new System.Windows.Forms.DataGridView();
-            this.txtID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.txtNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtDocumento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtTelefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnEditarCliente = new System.Windows.Forms.DataGridViewButtonColumn();
             this.btnBorrarCliente = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgClientes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
@@ -128,7 +127,6 @@
             // 
             this.dgClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgClientes.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.txtID,
             this.txtNombre,
             this.txtDocumento,
             this.txtTelefono,
@@ -140,11 +138,9 @@
             this.dgClientes.TabIndex = 5;
             this.dgClientes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // txtID
+            // errorProvider1
             // 
-            this.txtID.HeaderText = "ID";
-            this.txtID.Name = "txtID";
-            this.txtID.Width = 50;
+            this.errorProvider1.ContainerControl = this;
             // 
             // txtNombre
             // 
@@ -180,10 +176,6 @@
             this.btnBorrarCliente.UseColumnTextForButtonValue = true;
             this.btnBorrarCliente.Width = 70;
             // 
-            // errorProvider1
-            // 
-            this.errorProvider1.ContainerControl = this;
-            // 
             // frmListaClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -197,6 +189,7 @@
             this.Controls.Add(this.materialLabel1);
             this.Name = "frmListaClientes";
             this.Text = "frmListaClientes";
+            this.Load += new System.EventHandler(this.frmListaClientes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgClientes)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
@@ -212,12 +205,11 @@
         private MaterialSkin.Controls.MaterialRaisedButton btnNuevoCliente;
         private MaterialSkin.Controls.MaterialRaisedButton btnSalir;
         private System.Windows.Forms.DataGridView dgClientes;
-        private System.Windows.Forms.DataGridViewTextBoxColumn txtID;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.DataGridViewTextBoxColumn txtNombre;
         private System.Windows.Forms.DataGridViewTextBoxColumn txtDocumento;
         private System.Windows.Forms.DataGridViewTextBoxColumn txtTelefono;
         private System.Windows.Forms.DataGridViewButtonColumn btnEditarCliente;
         private System.Windows.Forms.DataGridViewButtonColumn btnBorrarCliente;
-        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }
