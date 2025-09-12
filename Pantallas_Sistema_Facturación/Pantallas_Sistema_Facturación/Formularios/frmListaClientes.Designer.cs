@@ -35,12 +35,13 @@
             this.btnNuevoCliente = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btnSalir = new MaterialSkin.Controls.MaterialRaisedButton();
             this.dgClientes = new System.Windows.Forms.DataGridView();
-            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.txtNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtDocumento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtTelefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnEditarCliente = new System.Windows.Forms.DataGridViewButtonColumn();
             this.btnBorrarCliente = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgClientes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
@@ -138,10 +139,6 @@
             this.dgClientes.TabIndex = 5;
             this.dgClientes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // errorProvider1
-            // 
-            this.errorProvider1.ContainerControl = this;
-            // 
             // txtNombre
             // 
             this.txtNombre.HeaderText = "NOMBRE";
@@ -175,6 +172,10 @@
             this.btnBorrarCliente.Text = "Borrar";
             this.btnBorrarCliente.UseColumnTextForButtonValue = true;
             this.btnBorrarCliente.Width = 70;
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
             // 
             // frmListaClientes
             // 
@@ -211,5 +212,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn txtTelefono;
         private System.Windows.Forms.DataGridViewButtonColumn btnEditarCliente;
         private System.Windows.Forms.DataGridViewButtonColumn btnBorrarCliente;
+        private System.Windows.Forms.Timer timer1;
     }
 }

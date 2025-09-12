@@ -24,6 +24,13 @@ namespace Pantallas_Sistema_Facturación
         private void frmAdminSeguridad_Load(object sender, EventArgs e)
         {
             CargarUsuario();
+            timer1.Interval = 10000; //10 segundos
+            timer1.Tick += timer1_Tick;
+            timer1.Start();
+        }
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            CargarUsuario();
         }
         private void CargarUsuario()
         {

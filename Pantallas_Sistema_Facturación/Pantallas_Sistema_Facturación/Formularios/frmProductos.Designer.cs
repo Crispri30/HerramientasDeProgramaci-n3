@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.txtNombreProducto = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.txtCodigoReferencia = new MaterialSkin.Controls.MaterialSingleLineTextField();
@@ -44,6 +47,9 @@
             this.btnSalirProducto = new MaterialSkin.Controls.MaterialRaisedButton();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.cmbCategorias = new System.Windows.Forms.ComboBox();
+            this.btnAgregar = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.btnEliminar = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgProductos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
@@ -199,9 +205,33 @@
             // 
             // dgProductos
             // 
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgProductos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.dgProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgProductos.DefaultCellStyle = dataGridViewCellStyle8;
             this.dgProductos.Location = new System.Drawing.Point(505, 249);
             this.dgProductos.Name = "dgProductos";
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgProductos.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.dgProductos.Size = new System.Drawing.Size(274, 113);
             this.dgProductos.TabIndex = 11;
             // 
@@ -211,7 +241,7 @@
             this.btnActualizarProducto.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnActualizarProducto.Depth = 0;
             this.btnActualizarProducto.Icon = null;
-            this.btnActualizarProducto.Location = new System.Drawing.Point(237, 388);
+            this.btnActualizarProducto.Location = new System.Drawing.Point(29, 388);
             this.btnActualizarProducto.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnActualizarProducto.Name = "btnActualizarProducto";
             this.btnActualizarProducto.Primary = true;
@@ -223,15 +253,14 @@
             // 
             // btnSalirProducto
             // 
-            this.btnSalirProducto.AutoSize = true;
             this.btnSalirProducto.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnSalirProducto.Depth = 0;
             this.btnSalirProducto.Icon = null;
-            this.btnSalirProducto.Location = new System.Drawing.Point(438, 388);
+            this.btnSalirProducto.Location = new System.Drawing.Point(537, 388);
             this.btnSalirProducto.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnSalirProducto.Name = "btnSalirProducto";
             this.btnSalirProducto.Primary = true;
-            this.btnSalirProducto.Size = new System.Drawing.Size(58, 36);
+            this.btnSalirProducto.Size = new System.Drawing.Size(103, 36);
             this.btnSalirProducto.TabIndex = 13;
             this.btnSalirProducto.Text = "Salir";
             this.btnSalirProducto.UseVisualStyleBackColor = true;
@@ -249,11 +278,43 @@
             this.cmbCategorias.Size = new System.Drawing.Size(121, 21);
             this.cmbCategorias.TabIndex = 14;
             // 
+            // btnAgregar
+            // 
+            this.btnAgregar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnAgregar.Depth = 0;
+            this.btnAgregar.Icon = null;
+            this.btnAgregar.Location = new System.Drawing.Point(162, 388);
+            this.btnAgregar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Primary = true;
+            this.btnAgregar.Size = new System.Drawing.Size(106, 36);
+            this.btnAgregar.TabIndex = 15;
+            this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnEliminar.Depth = 0;
+            this.btnEliminar.Icon = null;
+            this.btnEliminar.Location = new System.Drawing.Point(323, 388);
+            this.btnEliminar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Primary = true;
+            this.btnEliminar.Size = new System.Drawing.Size(99, 36);
+            this.btnEliminar.TabIndex = 16;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
             // frmProductos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnEliminar);
+            this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.cmbCategorias);
             this.Controls.Add(this.btnSalirProducto);
             this.Controls.Add(this.btnActualizarProducto);
@@ -270,6 +331,7 @@
             this.Controls.Add(this.materialLabel1);
             this.Name = "frmProductos";
             this.Text = "frmProductos";
+            this.Load += new System.EventHandler(this.frmProductos_load);
             ((System.ComponentModel.ISupportInitialize)(this.dgProductos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
@@ -294,5 +356,8 @@
         private MaterialSkin.Controls.MaterialRaisedButton btnSalirProducto;
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.ComboBox cmbCategorias;
+        private MaterialSkin.Controls.MaterialRaisedButton btnAgregar;
+        private MaterialSkin.Controls.MaterialRaisedButton btnEliminar;
+        private System.Windows.Forms.Timer timer1;
     }
 }

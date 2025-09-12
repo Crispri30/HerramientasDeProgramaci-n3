@@ -37,6 +37,7 @@
             this.btnActualizar = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btnSalir = new MaterialSkin.Controls.MaterialRaisedButton();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -175,5 +176,6 @@
         private MaterialSkin.Controls.MaterialRaisedButton btnActualizar;
         private MaterialSkin.Controls.MaterialRaisedButton btnSalir;
         private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.Timer timer1;
     }
 }

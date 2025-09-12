@@ -25,6 +25,13 @@ namespace Pantallas_Sistema_Facturación
         {
             dgClientes.AutoGenerateColumns = false;
             CargarDataGrid();
+            timer1.Interval = 10000; //10 segundos
+            timer1.Tick += timer1_Tick;
+            timer1.Start();
+        }
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            CargarDataGrid();
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
