@@ -1,0 +1,10 @@
+C:\Users\user\OneDrive\Escritorio\HerramientasDeProgramaci-n3\Pantallas_Sistema_Facturación\Datos\bin\Debug\Datos.dll
+C:\Users\user\OneDrive\Escritorio\HerramientasDeProgramaci-n3\Pantallas_Sistema_Facturación\Datos\bin\Debug\Datos.pdb
+C:\Users\user\OneDrive\Escritorio\HerramientasDeProgramaci-n3\Pantallas_Sistema_Facturación\Datos\bin\Debug\MaterialSkin.dll
+C:\Users\user\OneDrive\Escritorio\HerramientasDeProgramaci-n3\Pantallas_Sistema_Facturación\Datos\bin\Debug\System.Data.SqlClient.dll
+C:\Users\user\OneDrive\Escritorio\HerramientasDeProgramaci-n3\Pantallas_Sistema_Facturación\Datos\bin\Debug\System.Data.SqlClient.xml
+C:\Users\user\OneDrive\Escritorio\HerramientasDeProgramaci-n3\Pantallas_Sistema_Facturación\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\user\OneDrive\Escritorio\HerramientasDeProgramaci-n3\Pantallas_Sistema_Facturación\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Escritorio\HerramientasDeProgramaci-n3\Pantallas_Sistema_Facturación\Datos\obj\Debug\Datos.csproj.Up2Date
+C:\Users\user\OneDrive\Escritorio\HerramientasDeProgramaci-n3\Pantallas_Sistema_Facturación\Datos\obj\Debug\Datos.dll
+C:\Users\user\OneDrive\Escritorio\HerramientasDeProgramaci-n3\Pantallas_Sistema_Facturación\Datos\obj\Debug\Datos.pdb

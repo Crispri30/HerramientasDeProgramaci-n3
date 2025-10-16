@@ -15,4 +15,21 @@ CREATE TABLE Usuarios(
 	Clave NVARCHAR(200) NOT NULL
 );
 
-INSERT INTO Usuarios (Documento,Usuario,Clave) VALUES (148789,'cfprimer','1234');
+INSERT INTO Usuarios (Documento,Usuario,Clave) VALUES (148789,'cfprimer','12345');
+
+CREATE TABLE Categorias(
+	CodigoCat INT PRIMARY KEY NOT NULL,
+	Nombre NVARCHAR(100)
+);
+
+
+CREATE TABLE Productos(
+	CodigoCat INT PRIMARY KEY NOT NULL,
+	NombreProducto NVARCHAR(100) NOT NULL,
+	PrecioCompra INT NOT NULL,
+	PrecioVenta INT NOT NULL,
+	Categoria INT,
+	CantStock INT NOT NULL
+	
+	CONSTRAINT FK_Categoria FOREIGN KEY (Categoria) REFERENCES Categorias(CodigoCat)
+);
